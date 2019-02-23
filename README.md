@@ -1,5 +1,9 @@
-# React Native Starter
-
-Thank you for purchasing our starter kit. You can find the documentation here: https://flatlogic.gitbook.io/react-native-starter
-
-If you have any questions, please let us know at support@reactnativestarter.com
+const config = {
+      apiKey: "AIzaSyCPAXIjm2Qqw_UFj40FeW7Ew1_Irov4JsU",
+      authDomain: "exhibition-5d380.firebaseapp.com",
+      databaseURL: "https://exhibition-5d380.firebaseio.com",
+      projectId: "exhibition-5d380",
+      storageBucket: "exhibition-5d380.appspot.com",
+      messagingSenderId: "898550210064"
+    };
+    firebase.initializeApp(config);
